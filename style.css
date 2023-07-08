@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+h1 {
+  color:black;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+#btn {
+  /* Background color */
+  background-color: #4CAF50;
+
+  /* Text color */
+  color: white;
+
+  /* Padding */
+  padding: 10px 20px;
+
+  /* Border */
+  border: none;
+
+  /* Border radius */
+  border-radius: 4px;
+
+  /* Font size */
+  font-size: 16px;
+
+  /* Hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+  background-color: #45a049;
+}
+
+.my-button:active {
+  background-color: #3e8e41;
+}
+
+#joke {
+  /* Background color */
+  background-color: #f2f2f2;
+  
+  /* Padding */
+  padding: 20px;
+  
+  /* Border */
+  border: 1px solid #ccc;
+  
+  /* Border radius */
+  border-radius: 4px;
+  
+  /* Text color */
+  color: #272598;
+  
+  /* Font size */
+  font-size: 26px;
+  
+  /* Font weight */
+  font-weight: bold;
+  
+  /* Text alignment */
+  text-align: center;
+  
+  /* Margin */
+  margin: 0;
+}
